@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.SalesStudio" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
