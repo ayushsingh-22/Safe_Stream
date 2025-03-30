@@ -1,54 +1,59 @@
 # Sales Studio TV Launcher
 
-Sales Studio is a custom TV launcher designed for Android TV, built using **Kotlin** and **Jetpack Compose**. It provides a seamless user experience with app navigation, overlay permissions, and PIN-protected exit functionality.
+Sales Studio is a cutting-edge Android TV launcher developed using **Kotlin** and **Jetpack Compose**, providing a streamlined, secure, and user-friendly interface. Engineered for effortless navigation, it features robust overlay permission management and a PIN-protected exit mechanism, ensuring both accessibility and security.
 
-## 📌 Features
-- **Custom Android TV Launcher**: A dedicated interface optimized for TV screens.
-- **PIN-Protected Exit Dialog**: Secure app exit using a PIN.
-- **Overlay Permission Handling**: Automatically requests overlay permissions.
-- **Material Design 3 for TV**: Uses `androidx.tv.material3` for UI components.
+## 📌 Key Features
 
-## Project Structure
+- **Custom Android TV Launcher**: Designed specifically for television screens to enhance usability and performance.
+- **PIN-Protected Exit Mechanism**: Implements a secure authentication system to prevent unauthorized app termination.
+- **Automated Overlay Permission Handling**: Dynamically requests system-level permissions for seamless operation.
+- **Material Design 3 for TV**: Utilizes `androidx.tv.material3` for a visually cohesive and user-friendly interface.
+
+## 📂 Project Architecture
 
 ```
 kotlin+java/
 │── com.example.salesstudio
-│   ├── ui.theme/             # Theming & Styles
-│   │   ├── Color.kt         # Defines app colors
-│   │   ├── Permission.kt    # Handles overlay permissions
-│   │   ├── Theme.kt         # Defines the app theme
-│   │   ├── Type.kt          # Typography settings
-│   ├── AppInfo.kt           # Stores application-related data
-│   ├── ExitDesign.kt        # PIN-protected exit dialog
-│   ├── MainActivity.kt      # Main entry point for the app
-│   ├── design.kt            # UI layout components
+│   ├── ui.theme/             # Theming & Styling Components
+│   │   ├── Color.kt         # Centralized color scheme management
+│   │   ├── Permission.kt    # Manages overlay permission requests and validation
+│   │   ├── Theme.kt         # Defines global app-wide styling
+│   │   ├── Type.kt          # Manages typography configurations
+│   ├── AppInfo.kt           # Stores application metadata and constants
+│   ├── ExitDesign.kt        # Implements PIN-based exit dialog logic
+│   ├── MainActivity.kt      # Core entry point handling app lifecycle and navigation
+│   ├── design.kt            # UI component definitions
 ```
 
-## 🚀 Getting Started
-### Prerequisites
-- Android Studio Flamingo or later
-- Android TV Emulator or Device
-- Kotlin with Jetpack Compose
+## 🚀 Deployment Guide
 
-### Installation
+### System Requirements
+
+- **Android Studio Flamingo** or later
+- **Android TV Emulator** or a compatible **Android TV device**
+- **Kotlin** and **Jetpack Compose** development environment
+
+### Installation Instructions
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/sales-studio-tv.git
    ```
 2. Open the project in **Android Studio**.
-3. Run the app on an **Android TV device or emulator**.
+3. Deploy the application on an **Android TV device or emulator**.
 
-## 🎯 Usage
-- Upon launch, the app requests **overlay permission** if not granted.
-- Users can **navigate** through the launcher UI.
-- Pressing **Back or Home** triggers the **ExitDialog**, requiring a PIN (**Default: 1234**) to exit.
+## 🎯 Functional Overview
 
-## 🛠️ Tech Stack
-- **Kotlin** & **Jetpack Compose**
-- **Android TV Material 3**
-- **Overlay Permissions API**
+- Upon initialization, the application automatically requests **overlay permissions** if not previously granted.
+- Users can **navigate seamlessly** through the launcher interface.
+- Pressing **Back or Home** triggers an **ExitDialog**, requiring a valid **PIN authentication (Default: 1234)** to proceed with exit.
 
+## 🛠️ Technology Stack
 
-## 👨‍💻 Author
-Developed by Ayush Kumar.
+- **Kotlin** & **Jetpack Compose** for UI and logic implementation
+- **Android TV Material 3** for an optimized television interface
+- **Overlay Permissions API** for system-level overlay handling
 
+## 👨‍💻 Developer
+
+Engineered by Ayush Kumar.
