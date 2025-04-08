@@ -37,7 +37,7 @@ kotlin+java/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/sales-studio-tv.git
+   git clone https://github.com/ayushsingh-22/Safe_Stream.git
    ```
 2. Open the project in **Android Studio**.
 3. Deploy the application on an **Android TV device or emulator**.
@@ -56,4 +56,4 @@ kotlin+java/
 
 ## 👨‍💻 Developer
 
-Engineered by Ayush Kumar.
+Engineered by Ayush
