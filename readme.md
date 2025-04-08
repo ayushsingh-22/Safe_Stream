@@ -1,6 +1,6 @@
-# Sales Studio TV Launcher
+# Safe Stream TV Launcher
 
-Sales Studio is a cutting-edge Android TV launcher developed using **Kotlin** and **Jetpack Compose**, providing a streamlined, secure, and user-friendly interface. Engineered for effortless navigation, it features robust overlay permission management and a PIN-protected exit mechanism, ensuring both accessibility and security.
+Safe Stream is a cutting-edge Android TV launcher developed using **Kotlin** and **Jetpack Compose**, providing a streamlined, secure, and user-friendly interface. Engineered for effortless navigation, it features robust overlay permission management and a PIN-protected exit mechanism, ensuring both accessibility and security.
 
 ## 📌 Key Features
 
